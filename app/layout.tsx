@@ -1,6 +1,6 @@
 // /app/layout.tsx
-import '@/app/ui/global.css';
-import { inter } from '@/app/ui/font.ts';
+import "@/app/ui/global.css";
+import { inter } from "@/app/ui/fonts";
 
 export default function RootLayout({
   children,

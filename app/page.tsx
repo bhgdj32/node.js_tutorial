@@ -2,8 +2,8 @@ import AcmeLogo from "@/app/ui/acme-logo";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import styles from "@/app/ui/home.module.css";
-import { lusitana } from "@/app/ui/font.ts";
-import Image from 'next/image';
+import { lusitana } from "@/app/ui/fonts";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -47,7 +47,6 @@ export default function Page() {
             className="block md:hidden"
             alt="Screenshots of the dashboard project showing desktop version"
           />
-
         </div>
       </div>
     </main>
